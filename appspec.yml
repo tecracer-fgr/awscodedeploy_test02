@@ -20,7 +20,4 @@ hooks:
    AfterInstall:
     - location: scripts/restartapache.sh
       runas: root
-   ApplicationStop:
-    - location: deregister_from_elb.sh
-   ApplicationStart:
-    - location: register_with_elb.sh
+
